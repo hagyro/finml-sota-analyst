@@ -1,0 +1,49 @@
+{
+  "name": "finml-sota-analyst",
+  "version": "1.0.0",
+  "description": "FinML SOTA Analyst - Machine Learning for Financial & Economic Data",
+  "main": "dist/finml.js",
+  "types": "dist/finml.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/finml.ts",
+    "dev": "ts-node-dev --respawn src/finml.ts",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "machine-learning",
+    "finance",
+    "time-series",
+    "forecasting",
+    "trading",
+    "quantitative",
+    "ai-agent",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/finml-sota-analyst.git"
+  }
+}
